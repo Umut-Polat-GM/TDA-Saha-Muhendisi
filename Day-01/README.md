@@ -43,6 +43,8 @@ Bara'dan hatta doğru ekipman sıralaması:
 
 ---
 
+![Tek Hat Şeması](./assets/Tek_Hat_Seması01.jfif)
+
 ## 🔗 İlgili Kaynaklar & Dokümanlar
 
 -   _IEC 62271 Standardı — Yüksek Gerilim Şalt Tesisleri_
