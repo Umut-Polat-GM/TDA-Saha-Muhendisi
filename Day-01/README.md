@@ -45,6 +45,11 @@ Bara'dan hatta doğru ekipman sıralaması:
 
 ![Tek Hat Şeması](./assets/Tek_Hat_Seması01.jfif)
 
+## 🔗 Detaylı Notlar
+
+Tüm teorik detaylar, hesaplamalar ve saha test adımları için:
+👉 **[1. Gün Detaylı Teknik Notları (detail.md)](./detail.md)**
+
 ## 🔗 İlgili Kaynaklar & Dokümanlar
 
 -   _IEC 62271 Standardı — Yüksek Gerilim Şalt Tesisleri_
