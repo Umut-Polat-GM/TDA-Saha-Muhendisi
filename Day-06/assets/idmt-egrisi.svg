@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Aşırı akım koruması — IDMT eğrisi</title>
+  <desc id="desc">TDA eğitimi için açıklayıcı teknik şema.</desc>
+  <rect width="960" height="420" rx="18" fill="#f8fafc"/>
+  <rect x="0" y="0" width="960" height="72" rx="18" fill="#0f2747"/>
+  <path d="M0 54h960v18H0z" fill="#0f2747"/>
+  <text x="480" y="46" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#fff">Aşırı akım koruması — IDMT eğrisi</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="none" stroke="#64748b" stroke-width="1.6"/></marker></defs>
+  <rect x="42" y="132" width="244" height="108" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <rect x="358" y="132" width="244" height="108" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <rect x="674" y="132" width="244" height="108" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="164" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Y&#252;k akımı: uzun gecikme</text>
+  <text x="480" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Arıza akımı: ters zaman</text>
+  <text x="796" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Ani a&#231;ma kademesi</text>
+  <text x="164" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">Kontrol / giriş</text>
+  <text x="480" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">İşlem / değerlendirme</text>
+  <text x="796" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">Sonuç / çıkış</text>
+  <line x1="286" y1="186" x2="348" y2="186" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="602" y1="186" x2="664" y2="186" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="42" y="282" width="876" height="82" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="76" cy="323" r="17" fill="#0f2747"/>
+  <text x="76" y="329" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#fff">i</text>
+  <text x="108" y="316" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#1e293b">Saha notu</text>
+  <text x="108" y="342" font-family="Arial, sans-serif" font-size="14" fill="#475569">Akım arttık&#231;a a&#231;ma s&#252;resi azalır; ayarlar koordinasyon &#231;alışmasına g&#246;re belirlenir</text>
+  <text x="480" y="396" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">TDA Saha Mühendisliği • Eğitim amaçlı şema • Uygulamada onaylı proje ve üretici dokümanlarını izleyin</text>
+</svg>
