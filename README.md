@@ -43,7 +43,7 @@ Her günün klasöründe:
 | **12** | Haberleşme ve emniyet | Kompakt şalt ve RMU | Hücre mimarisi, gösterge ve güvenli çalışma | [Notlar](./Day-12/) |
 | **13** | Test ve komisyonlama | OG kablo testleri | VLF, tan delta, kısmi boşalma ve ekran | [Notlar](./Day-13/) |
 | **14** | Test ve komisyonlama | Parafudr ve aşırı gerilim | MOV, koruma seviyesi, koordinasyon ve kaçak akım | [Notlar](./Day-14/) |
-| **15** | Test ve komisyonlama | Fider komisyonlama | Test sırası, ayar yönetimi ve test dosyası | [Notlar](./Day-15/) |
+| **15** | Test ve komisyonlama | Fider komisyonlama ve önceden belirlenmiş kabul kriterleri | Kabul matrisi, müşteri hazır oluşu, test süresi, kanıt ve imza yetkisi | [Notlar](./Day-15/) |
 | **16** | İleri koruma | Güç trafosu korumaları | 87T, REF, Buchholz, DGA, sıcaklık ve V/Hz | [Notlar](./Day-16/) |
 | **17** | İleri koruma | Bara diferansiyel koruması | 87B, CT kararlılığı ve bara zonları | [Notlar](./Day-17/) |
 | **18** | İleri koruma | Kesici arızası yedek koruması | 50BF, lockout (86), trip matrisi ve yedek açma | [Notlar](./Day-18/) |
@@ -55,10 +55,10 @@ Her günün klasöründe:
 | **24** | Ölçüm ve tesisat | Reaktif güç kompanzasyonu | Güç faktörü, kademeler, harmonikler ve rezonans | [Notlar](./Day-24/) |
 | **25** | Ölçüm ve tesisat | Ölçü trafoları ve burden | CT/VT sınıfları, burden, diz noktası ve güvenlik | [Notlar](./Day-25/) |
 | **26** | Kabul ve dokümantasyon | Topraklama ve yıldırımdan korunma | TT/TN/IT, ölçüm, LPS ve SPD koordinasyonu | [Notlar](./Day-26/) |
-| **27** | Kabul ve dokümantasyon | Test dosyası ve kayıt yönetimi | Prosedür, kalibrasyon, revizyon ve uygunsuzluk | [Notlar](./Day-27/) |
+| **27** | Kabul ve dokümantasyon | Test kanıtı, imza yetkisi ve kayıt yönetimi | PASS/FAIL kanıtı, roller, şartlı kabul, NC ve revizyon | [Notlar](./Day-27/) |
 | **28** | Kabul ve dokümantasyon | Saha kabulü ve punch list | İnşaat, mekanik, elektrik ve emniyet kontrolleri | [Notlar](./Day-28/) |
 | **29** | SCADA ve bütünleşik uygulama | SCADA point testleri | DI/DO/AI/AO, uzaktan kumanda ve olay sıralaması | [Notlar](./Day-29/) |
-| **30** | SCADA ve bütünleşik uygulama | Bütünleşik TDA simülasyonu | Komisyonlama akışı, roller, kararlar ve teslim | [Notlar](./Day-30/) |
+| **30** | SCADA ve bütünleşik uygulama | Bütünleşik TDA simülasyonu ve kabul kararı | Müşteri hazır oluşu, kabul karar kapısı, KPI sınırları ve yetkili imza | [Notlar](./Day-30/) |
 
 ---
 

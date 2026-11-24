@@ -6,6 +6,7 @@
 -   [x] Ayar dosyası yükleme ve doğrulama prosedürünü uygulamak.
 -   [x] Devreye alma kontrol listesi (checklist) hazırlamak.
 -   [x] Test dossier yapısını ve imza akışını öğrenmek.
+-   [x] Devreye alma öncesi ölçülebilir kabul kriterleri ve müşteri ön koşullarını netleştirmek.
 
 ---
 
@@ -51,4 +52,28 @@
 ## 🔗 Detaylı Notlar
 
 Her adımın detaylı kontrol listesi ve tipik hata senaryoları için:
+👉 **[15. Gün Detaylı Teknik Notları (detail.md)](./detail.md)**
+
+
+---
+
+### 📋 Devreye Alma Öncesi Kabul ve Hazırlık Mutabakatı
+Test başlamadan önce müşteri, TDA/yüklenici ekibi ve işletme temsilcisi; kriterleri, ön koşulları, kanıtları ve kabulü imzalayacak yetkiliyi yazılı olarak netleştirmelidir. Limitler evrensel kabul edilmemeli; sözleşme, onaylı proje dokümanı, üretici talimatı ve uygulanabilir standarttan alınmalıdır.
+
+| Mutabakat başlığı | Önceden belirlenmesi gerekenler |
+| :--- | :--- |
+| Teknik kabul kriteri | Ekipman/işlev, test yöntemi, beklenen değer ve tolerans; referans dokümanın adı/revizyonu |
+| Süre ve takvim | Test penceresi, tahmini test süresi, tekrar test için plan ve gecikme varsayımları |
+| Müşteri hazırlıkları | Enerji ve yardımcı beslemeler, saha erişimi, çalışma izinleri, operatör; gerekiyorsa yük/proses koşulları |
+| Kaynaklar | Kalibrasyonu geçerli test cihazı, gerekli personel, yardımcı malzeme ve iletişim düzeni |
+| Kanıtlar | Ham ölçüm, imzalı test raporu, olay kayıtları, eğitim ve teslim kayıtları, revizyon bilgisi |
+| Yetki ve imza | Testi yapan, tanık olan, teknik değerlendiren ve kabulü imzalayacak isim/rol |
+| Sapma yönetimi | PASS/FAIL/şartlı kabul tanımı, açık uygunsuzluk sahibi, düzeltme ve tekrar test onayı |
+
+> **KPI notu:** Çevrim süresi ve ilk geçiş oranı gibi ölçütler yalnızca proje kapsamına uyuyorsa sözleşmede tanımlanmalıdır. Bunlar ekipman kabul testlerinin yerine geçmez. Ölçüm yöntemi, başlangıç/bitiş noktası, örneklem ve istisnalar da tanımlanmalıdır.
+
+Örnek kabul satırı ve doldurulabilir proje matrisi için [detaylı teknik notlara](./detail.md#11-devreye-alma-oncesi-kabul-ve-hazirlik-matrisi) bakın.
+
+### 4. Detaylı Notlar
+Her adımın kontrol listesi, kabul matrisi ve tipik hata senaryoları için:
 👉 **[15. Gün Detaylı Teknik Notları (detail.md)](./detail.md)**

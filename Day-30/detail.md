@@ -228,3 +228,39 @@ Gün 29-30:  SCADA ve komple simülasyon
 -   _IEC 61936 — Power Installations > 1 kV_
 -   _EN 50110 — Operation of Electrical Installations_
 -   _IEEE 3007.3 — Commissioning of Electrical Systems_
+
+
+---
+
+## 7. Kabul Kriterleri ve Müşteri Hazır Oluşu — Gün Sonu Karar Kapısı
+Enerjileme/kabul toplantısında ekip, Gün 15’te hazırlanmış proje kabul matrisi ile gerçek saha durumunu karşılaştırır. Burada belirtilen maddeler genel kontrol çerçevesidir; sayısal değerler ve sözleşmesel kabul tanımı projeye özel onaylanmış dokümanlardan alınır.
+
+### 7.1. Kabul Öncesi Karar Tablosu
+| Karar alanı | Sorulacak soru | Kanıt / kayıt | Karar sahibi (projede teyit edilir) |
+| :--- | :--- | :--- | :--- |
+| Teknik kriter | Her test maddesi onaylı kriter ve toleransı karşılıyor mu? | Test raporu, ham ölçüm, kaynak doküman/revizyon | Teknik değerlendirici |
+| Müşteri hazır oluşu | Enerji/yardımcı besleme, erişim, izin, operatör ve gerekli proses/yük koşulu hazır mı? | Hazır oluş checklist’i, izin kayıtları | Müşteri/işletme temsilcisi |
+| Kayıt ve eğitim | Test dossier, as-built, ayar dosyaları ve eğitim kayıtları tamam mı? | Teslim listesi, katılım/imza kaydı | Proje kalite sorumlusu ve müşteri |
+| Sapma/açık işler | Uygunsuzluk ve punch maddelerinin etkisi değerlendirilip yetkili kararı kayda alındı mı? | NC/punch list, aksiyon ve termin | Yetkili teknik/işletme kabul rolü |
+| Nihai kabul | Sözleşmedeki kabul şartları tamam mı ve doğru kişi imzalıyor mu? | Kabul tutanağı, imza/yetki matrisi | Sözleşmede belirtilen kabul yetkilisi |
+| Enerjileme izni | Manevra planı ve saha emniyet koşulları yetkili işletme tarafından onaylandı mı? | Onaylı manevra fişi ve izin | İşletme manevra yetkilisi |
+
+### 7.2. Müşteri Tarafı Hazır Oluş Kontrolü
+- [ ] Saha erişimi, çalışma izinleri ve gerekli izolasyon/LOTO koordinasyonu planlandı.
+- [ ] Projede gerekli AC/DC yardımcı beslemeler ve güvenli test koşulları sağlandı.
+- [ ] Müşteri tanığı, operatör ve yetkili imza sahibi planlanan zaman penceresinde hazır.
+- [ ] Gerekli kesinti/test penceresi ve iletişim/SCADA koordinasyonu teyit edildi.
+- [ ] Yük, hammadde veya üretim koşulu yalnızca kapsam gerektiriyorsa tanımlandı ve hazırlandı.
+- [ ] Eğitim, doküman teslimi ve işletmeye devir için sorumlu kişiler belirlendi.
+
+### 7.3. Süre ve Performans Ölçütleri
+Gün planındaki saatler örnek organizasyon taslağıdır; garanti edilen test süresi veya kabul kriteri değildir. Sözleşmede süre/KPI kullanılacaksa ölçüm başlangıç-bitiş anları, beklemelerin dahil edilmesi, müşteri hazır oluşuna bağlı duruşlar, tekrar testler, örneklem ve veri kaynağı önceden tanımlanır. **İlk geçiş oranı ve çevrim süresi** bağlama uygun performans göstergeleridir; koruma, izolasyon ve emniyet testlerinin kabul ölçütlerinin yerine geçmez.
+
+### 7.4. Nihai İmza ve Karar
+- TDA/test ekibi test sonuçlarının ve kanıtların eksiksizliğini doğrular.
+- Teknik kabulü değerlendiren kişi sonuçları onaylı proje kriterlerine göre inceler.
+- İşletme/manevra yetkilisi, kendi yetkisi dahilindeki güvenli işletme ve enerjileme iznini verir.
+- **Sözleşmesel nihai kabulü yalnızca sözleşme veya onaylı yetki matrisinde adı/rolü tanımlı yetkili imzalar.**
+- Eksik veya başarısız test varsa sonuç “kabul edildi” olarak varsayılmaz; uygunsuzluk, sorumlu, termin ve tekrar test kararı kayda alınır.
+
+> Bu karar kapısı, iş izni veya canlı tesiste çalışma prosedürü değildir. Enerjileme yalnızca yetkili işletmenin onaylı manevra planı ve yürürlükteki güvenlik kurallarıyla yapılır.

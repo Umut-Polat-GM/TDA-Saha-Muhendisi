@@ -6,6 +6,7 @@
 -   [x] Test prosedürü yazım mantığını öğrenmek.
 -   [x] İmza ve onay akışını (TDA → Müşteri → Kuruluş) kavramak.
 -   [x] Non-conformity (NC) kayıt ve kapatma sürecini uygulamak.
+-   [x] Kabul kanıtlarını, şartlı kabul sınırlarını ve nihai imza yetkisini ayırt etmek.
 
 ---
 
@@ -44,7 +45,12 @@ Her prosedür şunları içerir:
 -   **Kabul kriteri** — ölçülebilir, net değerler.
 -   **Kayıt tablosu** — ölçüm değerlerinin yazılacağı alanlar.
 
-### 4. NC (Non-Conformity) Yönetimi
+### 4. Kabul kanıtı ve imza netliği
+- Kabul, yalnızca “test yapıldı” beyanı değildir: onaylı kriter, ham ölçüm/veri, PASS/FAIL sonucu, test cihazı kalibrasyonu ve imzalı rapor birlikte saklanır.
+- Testi uygulayan, tanık olan, teknik uygunluğu değerlendiren ve sözleşmeye göre nihai kabulü imzalayan roller ayrı belirtilir.
+- Şartlı kabul varsa açık iş, sorumlu, hedef tarih, işletme/emniyet etkisi ve tekrar test/onay şartı yazılı kayda alınır. Kritik emniyet veya koruma eksikliği kabul edilmiş sayılmaz.
+
+### 5. NC (Non-Conformity) Yönetimi
 
 1.  NC **bulunur** → form doldurulur (tarih, konum, fotoğraf).
 2.  **Sınıflandırılır:** Kritik / Major / Minor.

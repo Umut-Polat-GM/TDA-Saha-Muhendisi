@@ -177,3 +177,39 @@ Her sinyal için tablo doldurulur:
 -   _IEC 60364-6 — Doğrulama (Verification)_
 -   _EN 50110 — Elektrik Tesisatlarında İşletme_
 -   _IEC 61850-4 — System and Project Management_
+
+
+---
+
+## 11. Devreye Alma Öncesi Kabul ve Hazırlık Matrisi
+Bu matris, test sahasına çıkmadan ve devreye alma takvimi kesinleşmeden önce müşteri, yüklenici/TDA ekibi ve işletme arasında üzerinde anlaşılması gereken çerçeveyi sağlar. Proje örneğidir; **sayısal limitler her ekipman için sözleşme, onaylı proje şartnamesi, üretici dokümanı ve uygulanabilir standarttan alınmalıdır.** Buradaki tablo evrensel kabul limiti vermez.
+
+### 11.1. Proje Kabul Matrisi — Doldurulabilir Şablon
+| No | Ekipman/işlev | Test yöntemi | Kabul kriteri ve tolerans | Kaynak/revizyon | Tahmini süre ve ön koşul | Kayıt/kanıt | Test / tanık / kabul imzası | Durum / açık iş |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | Fider koruma IED | Onaylı ayar dosyasına göre sekonder enjeksiyon | Pick-up, zaman karakteristiği ve trip matrisi onaylı proje toleransında | Ayar listesi: ___ Rev ___; prosedür: ___ Rev ___ | Test penceresi ___; DC kumanda ve güvenli test koşulu hazır | Ham sonuç, cihaz kalibrasyonu, imzalı test raporu, ayar dosyası/hash | Test: ___ / Tanık: ___ / Kabul: ___ | ___ |
+| 2 | Kesici kumanda ve kilitleme | Fonksiyon ve manevra senaryosu testi | Onaylı lojik/şemaya göre izinli işlemler çalışmalı, yasaklı kombinasyonlar bloke olmalı | Kumanda şeması: ___ Rev ___ | Kesici test/izole durumda; çalışma izni: ___ | Test adımı, kesici kayıtları, imzalı checklist | Test: ___ / Tanık: ___ / Kabul: ___ | ___ |
+| 3 | SCADA point listesi | Point-to-point DI/DO/AI testi | Adres, etiket, durum, ölçek ve komut geri bildirimi onaylı point listesiyle uyuşmalı | Point listesi: ___ Rev ___ | RTU/Gateway, haberleşme ve operatör erişimi hazır | Point test tablosu, SOE/ekran kaydı | Test: ___ / Tanık: ___ / Kabul: ___ | ___ |
+
+### 11.2. Müşteri ve Saha Hazır Oluş Kontrolü
+| Hazırlık | Sorumlu taraf/kişi | İstenen tarih/saat | Kanıt veya durum |
+| :--- | :--- | :--- | :--- |
+| Saha erişimi, çalışma izni, izolasyon/LOTO ve manevra yetkisi | ___ | ___ | ___ |
+| Gerekli AC/DC yardımcı beslemeler ve topraklama düzeni | ___ | ___ | ___ |
+| Test edilecek ekipmanın mekanik montajı ve kablolaması tamam | ___ | ___ | ___ |
+| Operatör, müşteri tanığı ve imza yetkilisi hazır | ___ | ___ | ___ |
+| Gerekli test penceresi / kesinti / izin onayları | ___ | ___ | ___ |
+| Proses yükü, hammadde veya üretim koşulu (kapsam gerektiriyorsa) | ___ | ___ | ___ |
+| Kabul edilecek teslim dokümanları ve eğitim planı | ___ | ___ | ___ |
+
+### 11.3. Başarı, Süre ve KPI Tanımları
+- **PASS/FAIL:** Her test maddesinin kabul kriterine uyup uymadığı, kullanılan veri ve toleransla birlikte kaydedilir.
+- **Test süresi:** Test adımının fiili süresi ile bekleme, izin, müşteri hazır oluşu ve tekrar test süreleri ayrı izlenir. Böylece süre sapmasının nedeni görünür olur.
+- **İlk geçiş oranı:** Projede KPI olarak isteniyorsa, ilk uygulamada PASS olan test maddesi / ilk uygulanan toplam test maddesi olarak tanımlanabilir. Tekrar testler ve kapsam dışı maddeler ayrıca raporlanır; oran tek başına güvenlik veya teknik kabul yerine geçmez.
+- **Çevrim süresi:** Yalnızca kapsam uygunsa başlangıç-bitiş olayı, bekleme sürelerinin dahil edilip edilmeyeceği ve ölçüm kaynağı sözleşmede yazılır.
+- **Şartlı kabul:** Yalnızca yetkili tarafların yazılı onayıyla; açık iş, sorumlu, termin ve işletme/emniyet etkisi kayıt altına alınarak uygulanır. Kritik emniyet veya koruma eksikliği, bu yolla kabul edilmiş sayılmaz.
+
+### 11.4. Kabul ve İmza Yetkisi
+Proje/sözleşme kalite planında en az şu roller ad ve unvanla tanımlanır: testi uygulayan, müşteri tanığı, teknik uygunluğu değerlendiren, işletme/enerjileme izni veren ve nihai kabulü imzalayan kişi. **Testi yapan kişi ile sözleşmesel kabul yetkilisi aynı rol olmak zorunda değildir.** İmza yetkisi proje/sözleşme belgelerinden teyit edilir; varsayılmaz.
+
+> Bu matris planlama ve kayıt şablonudur; işletme talimatı veya canlı tesiste çalışma izni değildir. Testler yalnızca yetkin personelce, onaylı prosedür ve emniyet kurallarıyla yapılır.

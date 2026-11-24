@@ -54,6 +54,17 @@ Saat-saat kontrol listeleri, rol tanımları ve tipik kriz yönetimi için:
 
 ---
 
+## 📋 4. Kabul Kararı Öncesi Son Mutabakat
+- [ ] Her test için önceden onaylanmış ölçülebilir kriter, tolerans ve kaynak doküman var.
+- [ ] Müşteri ön koşulları (enerji/yardımcı besleme, saha erişimi, izinler, operatör ve gerekiyorsa yük/proses koşulları) hazır.
+- [ ] Test raporları, ölçüm kanıtları, eğitim ve teslim kayıtları tamam.
+- [ ] Uygunsuzluklar ve şartlı kabul maddeleri yetkili onayıyla kayıtlı.
+- [ ] Nihai kabulü ve enerjileme/işletme iznini imzalayacak kişiler rol ve isim olarak teyitli.
+
+> KPI’lar (ör. çevrim süresi veya ilk geçiş oranı) ancak projeye uygunsa tanımı ve ölçüm yöntemi önceden kararlaştırılarak izlenir; ekipman güvenlik/kabul testlerinin yerine geçmez.
+
+---
+
 ## 🎉 30 Günlük Yolculuk Tamamlandı!
 
 Bu 30 günlük maratonda:
@@ -69,3 +80,13 @@ Bu 30 günlük maratonda:
 -   **SCADA ve komple simülasyon** (Gün 29-30)
 
 Tebrikler! Artık bir TDA saha mühendisi olarak temel yetkinliklere sahipsin. Saha tecrübesiyle birleştirdiğinde gerçek bir uzman olacaksın. ⚡
+
+
+## 📋 4. Kabul Kararı Öncesi Son Mutabakat
+- [ ] Her test için önceden onaylanmış ölçülebilir kriter, tolerans ve kaynak doküman var.
+- [ ] Müşteri ön koşulları (enerji/yardımcı besleme, saha erişimi, izinler, operatör ve gerekiyorsa yük/proses koşulları) hazır.
+- [ ] Test raporları, ölçüm kanıtları, eğitim ve teslim kayıtları tamam.
+- [ ] Uygunsuzluklar ve şartlı kabul maddeleri yetkili onayıyla kayıtlı.
+- [ ] Nihai kabulü ve enerjileme/işletme iznini imzalayacak kişiler rol ve isim olarak teyitli.
+
+> KPI’lar (ör. çevrim süresi veya ilk geçiş oranı) ancak projeye uygunsa tanımı ve ölçüm yöntemi önceden kararlaştırılarak izlenir; ekipman güvenlik/kabul testlerinin yerine geçmez.

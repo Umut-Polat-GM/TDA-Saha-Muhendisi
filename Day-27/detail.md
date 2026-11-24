@@ -155,3 +155,33 @@ Problem: CT polarite hatası
 -   _ISO 9001 — Kalite Yönetimi_
 -   _IEC 60364-6 — Doğrulama (Verification)_
 -   _IEEAHA — TDA Prosedür Şablonları (Sektörel)_
+
+
+---
+
+## 7. Kabul Kanıtı ve İmza Yetkisi
+Bir kabul kararı izlenebilir kanıta dayanmalıdır. Test raporunda test edilen ekipman/seri numarası, onaylı prosedür ve revizyonu, kaynak kabul kriteri, kullanılan cihaz ve kalibrasyon durumu, ham/ölçülen değerler, birim, tolerans, PASS/FAIL sonucu, sapmalar ve test tarihi/personeli bulunur.
+
+### 7.1. İmza Rolleri
+| Rol | Sorumluluk | İsim / unvan (projede doldurulur) |
+| :--- | :--- | :--- |
+| Testi uygulayan | Adımları uygular, ham sonucu kaydeder | ___ |
+| Tanık / müşteri temsilcisi | Gerekli testlerde hazır bulunur, gözlemi kayıt altına alır | ___ |
+| Teknik değerlendirici | Sonucu onaylı kriterle karşılaştırır ve sapmayı sınıflandırır | ___ |
+| İşletme/enerjileme yetkilisi | İşletme izni manevra yetkisi kapsamındaki onayı verir | ___ |
+| Nihai kabul yetkilisi | Sözleşme veya kalite planında tanımlanmış kabul kararını imzalar | ___ |
+
+> Bu rollerin aynı kişide birleşip birleşemeyeceği sözleşme, yetki matrisi ve işletme kurallarına bağlıdır. İmza yetkilisi önceden isim/rol olarak teyit edilmeli; TDA ekibi adına varsayılmamalıdır.
+
+### 7.2. Şartlı Kabul ve Açık İş Kaydı
+| Alan | Kayıt |
+| :--- | :--- |
+| Açık madde / uygunsuzluk no | ___ |
+| Teknik ve emniyet etkisi | ___ |
+| Geçici kısıt / işletme şartı (yetkili onayıyla) | ___ |
+| Sorumlu taraf ve kişi | ___ |
+| Termin | ___ |
+| Kapatma kanıtı ve tekrar test | ___ |
+| Şartlı kabul kararı ve yetkili imzası | ___ |
+
+Şartlı kabul, kritik emniyet veya koruma fonksiyonunun eksikliğini örtmek için kullanılamaz. Kabul edilebilirlik ve işletme kısıtları yalnızca sözleşme/işletme yetkilisinin yazılı kararıyla belirlenir.
